@@ -17,7 +17,7 @@ const fetchData = async (target) => {
 
     const response = await fetch(url);
     const data = await response.json();
-    // console.log(data);
+    
 
     // destructuring  in js,        const {} = data;
 
